@@ -18,6 +18,13 @@ body{
 .contact li:last-child{
 	border-right: none;
 }
+.mdc-dialog__content{
+  width: 282px;
+
+}
+.mdc-text-field{
+  margin-top: 15px;
+}
 .mdc-top-app-bar__section--align-end{
   float: right;
   margin-top: 14px;
@@ -53,12 +60,12 @@ margin-top: 0px;
   font-family: 'work_sansblack';
 }
 .material-icons{
-	margin:5px;
+	margin:10px;
 }
 
-.mdc-select__dropdown-icon{
+/*.mdc-select__dropdown-icon{
   bottom: auto;
-}
+}*/
 /*.inr_label{
   margin-left: -64px;
     margin-top: 8px;
@@ -82,7 +89,7 @@ margin-top: 0px;
 .menu{
 	margin-left: 150px;
   /*height: 80px;*/
-  /*margin-top: 10px;*/
+  margin-top: -10px;
   /*float: right;*/
   margin-bottom: -20px;
 }
@@ -98,13 +105,14 @@ margin-top: 0px;
   margin: 20px;
 
   }*/
-  .mdc-text-field{
+  .search{
    box-sizing: border-box;
    height:40px;
    margin: 10px;
-   width: 35%;
-   margin-left: 440px;
+   width: 100%;
+  
  }
+
  .btn_letsgo{
    background-color: #f3c458;
    width:60%;
